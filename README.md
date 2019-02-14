@@ -6,7 +6,7 @@ During this 16-week journey, I have consolidated my python programming and under
 
 Here comes the table of contents: 
 
-(1) EDA  
+(1) <b>EDA</b>  
 	- Using Statsmodels to Explore Logistic Regression and Overfitting  
 	- Hong Kong Public Housing Data Exploration  
 
