@@ -10,9 +10,9 @@ Here comes the table of contents:
 	- Using Statsmodels to Explore Logistic Regression and Overfitting  
 	- Hong Kong Public Housing Data Exploration  
 
-(2) <b>Deep Learning Projects
-	- Exploring DNN using MNIST
-	- Exploring RNN using IMDB dataset
+(2) <b>Deep Learning Projects</b>    
+	- Exploring DNN using MNIST  
+	- Exploring RNN using IMDB dataset  
 
 (3) <b>Machine Learning Projects</b>  
 	- KKBOX churn-rate prediction  
